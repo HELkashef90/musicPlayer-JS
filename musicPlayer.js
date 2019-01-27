@@ -7,12 +7,11 @@ var songs;
 var songsArr = [];
 var currSongsArr = [];
 var j = 0;
-
-
 var repeatFlage = false;
 var shuffleFlage = false;
 
 songs = playList.children
+console.log(songs)
 for (var i = 0; i < songs.length; i++) {
     songsArr[i] = songs[i].children[0].innerText;
     // console.log(songs[i].children[0])
